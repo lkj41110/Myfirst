@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="my_layout_1">
+        <item>修改资料</item>
+        <item>身份验证</item>
+        <item>我的订单</item>
+        <item>我的评论</item>
+        <item>我的收藏</item>
+        <item>设置</item>
+    </string-array>
+</resources>

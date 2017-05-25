@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_about">作者：罗凯</string>
+    <string name="menu_about_auother">个人介绍</string>
+    <string name="menu_about_project">项目介绍</string>
+
+    <string name="app_name">ofo</string>
+    <string name="down_main_text">首页</string>
+    <string name="down_recommend_text">推荐</string>
+    <string name="down_service_text">客服</string>
+    <string name="down_my_text">我的</string>
+
+    <!-- 登入 -->
+    <string name="login_enter">登入</string>
+    <string name="login_register">注册</string>
+    <string name="login_WXregister">微信登入</string>
+
+    <!-- 注册 -->
+    <string name="text_register_username">手机:</string>
+    <string name="edittext_register_username">请输入用户名</string>
+    <string name="text_register_password">密码:</string>
+    <string name="edittext_register_password">请输入密码</string>
+    <string name="text_register_password_again">密码:</string>
+    <string name="edittext_register_password_again">请重新输入密码</string>
+    <string name="text_register_email">邮箱:</string>
+    <string name="edittext_register_email">请输入邮箱</string>
+    <string name="text_register_phone">手机:</string>
+    <string name="edittext_register_phone">请输入手机号码</string>
+
+    <string name="checkbox_remember">记住用户名密码</string>
+
+    <!-- 修改 -->
+    <string name="text_alter_name">昵称</string>
+    <string name="text_alter_gender">性别</string>
+    <string name="text_alter_phone">手机号</string>
+    <string name="text_alter_email">邮箱</string>
+    <string name="text_alter_password">修改密码</string>
+    <string name="text_alter_name_yes">修改名字成功</string>
+    <string name="text_end_yes">结束成功</string>
+    <string name="text_id_card_yes">验证成功</string>
+    <string name="text_alter_yes">修改成功</string>
+    <string name="text_id_card_no">身份证输入错误</string>
+    <string name="text_alter_name_no">修改名字失败</string>
+
+    <!--性别-->
+    <string name="text_alter_nan">男</string>
+    <string name="text_alter_xing">性别</string>
+    <string name="text_alter_yanz">未验证</string>
+    <string name="text_alter_weyanz">已验证</string>
+    <string name="text_alter_nv">女</string>
+
+    <!-- 推出 -->
+    <string name="titlt_my">资料</string>
+    <string name="titlt_out">退出</string>
+    <string name="message_out">你确认退出？</string>
+
+    <!-- 标题栏 -->
+    <string name="title_exclusive">活动推荐</string>
+    <string name="title_custom">私人定制</string>
+    <string name="title_Spell">一键拼单</string>
+    <string name="title_guider">活动详情</string>
+    <string name="title_order">订单详情</string>
+    <string name="title_alter">修改资料</string>
+
+    <string name="text_guider_look">付款</string>
+    <string name="text_comments">评论</string>
+
+
+    <string name="text_guider_collection">收藏</string>
+
+    <!--推荐  -->
+    <string name="text_recommend">推荐理由：</string>
+
+    <!-- 电话号码-->
+    <string name="phone_service_domestic">18758114722</string>
+    <string name="phone_service_foreign">400-18758114722</string>
+    <string name="phone_service_ben">本地电话</string>
+    <string name="phone_service_xiao">24小时电话</string>
+    <string name="phone_service_ke">客服电话</string>
+
+    <!--首行缩进的尺度控制-->
+    <string name="text_first_so">\u3000\u3000</string>
+
+    <!--前端显示-->
+    <string name="toast_login_wrong">服务器连接失败</string>
+    <string name="toast_cost_yes">支付成功</string>
+    <string name="toast_report_wrong1">请选择损坏类型</string>
+    <string name="toast_report_wrong2">请填写自行车id</string>
+    <string name="toast_report_success">提交成功</string>
+
+    <!--按钮-->
+    <string name="button_exit">退出</string>
+    <string name="button_cancel">取消</string>
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    <!--项目介绍-->
+    <string name="about_project">ofo 共享单车是全球第一个无桩贡献单车出行平台。本毕业设计是以ofo为基础设计的app移动端和后台管理系统。</string>
+
+    <!--颜色-->
+    <drawable name="clr_normal">#ff6501</drawable>
+    <drawable name="clr_pressed">#a44100</drawable>
+
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+
+</resources>

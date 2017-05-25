@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_down_1">#70b1bd</color>
+    <color name="theme_down_2">#5E9aa5</color>
+    <color name="theme_text_1">#c6e0e5</color>
+    <color name="theme_text_2">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000ff</color>
+    <color name="theme_bg">#EFE9DE</color>
+    <color name="common_top_bar_blue">#70b1bd</color>
+
+<!--扫描用-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_bg"
+                android:orientation="vertical">
+
+    <RelativeLayout
+            android:id="@+id/title_order"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/common_top_bar_blue">
+
+        <ImageView
+                android:id="@+id/iv_order_back"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:onClick="back"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/top_bar_back"/>
+
+        <View
+                android:id="@+id/view_temp"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toRightOf="@id/iv_order_back"
+                android:background="#5E9aa5"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/title_order"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/report_relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/my_layout_alter_name"
+
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            android:paddingLeft="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+        <EditText
+                android:id="@+id/edit_report_bicycleId"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_normal_shape"
+                android:hint="车牌号"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textColorHint="#b3b3b3"
+                android:textSize="18sp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/report_relativeLayout1"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_list_item_bg"
+            android:paddingLeft="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+        <LinearLayout
+                android:id="@+id/button_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="请选择故障类型"
+                    android:textColor="#000000"
+                    android:textSize="18sp"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_order_way"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_11"
+                android:layout_marginTop="10dp">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+
+            <Button
+                    android:id="@+id/button_report_type1"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="私锁私用"/>
+            <Button
+                    android:id="@+id/button_report_type2"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="车牌损坏"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_order1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_order_way"
+                android:layout_marginTop="20dp">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+
+            <Button
+                    android:id="@+id/button_report_type3"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="轮胎坏了"/>
+            <Button
+                    android:id="@+id/button_report_type4"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="违章乱停"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_order3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_order1"
+                android:layout_marginTop="20dp">
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+
+            <Button
+                    android:id="@+id/button_report_type5"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="密码不对"/>
+            <Button
+                    android:id="@+id/button_report_type6"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="车锁坏了"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_order4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_order3"
+                android:layout_marginTop="20dp"
+        >
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+
+            <Button
+                    android:id="@+id/button_report_type7"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="刹车坏了"/>
+            <Button
+                    android:id="@+id/button_report_type8"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/shape_report_select"
+                    android:text="其他原因"/>
+
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+            android:id="@+id/button_report_submit"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/shape_main_select"
+            android:text="提交"/>
+
+</RelativeLayout>

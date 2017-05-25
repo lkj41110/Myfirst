@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/theme_bg"
+    android:orientation="vertical" >
+
+
+
+    <Button
+            android:id="@+id/button_map2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/shape_main_select"
+            android:text="开始旅程" />
+
+    <Button
+            android:id="@+id/button_map"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape_main_select"
+            android:text="定位API测试" />
+</LinearLayout>
